@@ -130,6 +130,9 @@ The goal is **High Recall** (catching attacks), not just high accuracy.
 
 ### Final Confusion Matrix
 
+![confusion matrix](https://github.com/user-attachments/assets/a7814cf8-4b0f-49ed-b3c8-0c6802bcc76b)
+
+
 ### Key Performance Metrics
 
 | Class | Precision | Recall | F1-Score |
