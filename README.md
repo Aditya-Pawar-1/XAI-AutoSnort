@@ -1,6 +1,6 @@
-# XAI-AutoSnort
+# AutoSnort
 
-XAI-AutoSnort is a Python-based web application that uses a "real-world" machine learning model to detect network intrusions. Its primary feature is the use of Explainable AI (XAI) to not only identify an attack but to also **automatically generate a corresponding Snort rule** based on the features the model found most important.
+AutoSnort is a Python-based web application that uses a "real-world" machine learning model to detect network intrusions. Its primary feature is the use of Explainable AI (XAI) to not only identify an attack but to also **automatically generate a corresponding Snort rule** based on the features the model found most important.
 
 This project is trained on the CIC-IDS-2017 dataset and uses a Random Forest model specifically balanced to provide **high recall on minority attack classes** (like Bots, Infiltration, and Web Attacks), making it more effective than a standard accuracy-focused model.
 
